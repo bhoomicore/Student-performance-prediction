@@ -70,11 +70,11 @@ Permutation importance is used to estimate the decrease in performance when an i
 
 The baseline model is compared with Ridge Regression and Random Forest using 5-fold cross-validation and test-set evaluation. Lower MAE and RMSE values indicate better prediction performance.
 
-Model| Cross-Validation MAE| Test MAE| Test RMSE
-Dummy Regressor (Baseline)| 2.4278| 2.3946| 3.1726
-Ridge Regression| 2.0423| 2.1518| 2.8580
-Random Forest| 1.9916| 2.0193| 2.7630
-
+| Model | Cross-Validation MAE | Test MAE | Test RMSE |
+| --- | ---: | ---: | ---: |
+| Dummy Regressor (Baseline) | 2.4278 | 2.3946 | 3.1726 |
+| Ridge Regression | 2.0423 | 2.1518 | 2.8580 |
+| Random Forest | 1.9916 | 2.0193 | 2.7630 |
 Source of results: "outputs/model_comparison.csv"
 
 Result analysis: Random Forest achieved the best performance, with the lowest cross-validation MAE (1.9916), test MAE (2.0193), and test RMSE (2.7630). Compared with the baseline model, Random Forest reduced test MAE by approximately 15.7%, indicating improved prediction accuracy on the test dataset.
