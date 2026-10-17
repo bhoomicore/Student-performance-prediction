@@ -51,12 +51,16 @@ Five-fold cross-validation is performed on the training data, and the models are
 
 The model comparison is done on the test set which is held out from the model selection process.
 ### 4.5 Models
+
 Dummy Regressor: A baseline model that predicts the mean of the training target values.
 Ridge Regression: A regularized linear regression estimator that helps in limiting the coefficients from becoming too large.
 Random Forest Regressor: An ensemble estimator that combines multiple decision trees to learn the relationship between the features and target variable.
+
 ### 4.6 Evaluation metrics
+
 Mean Absolute Error (MAE): This measures the absolute difference between the actual and predicted grade values. A lower MAE is better.
 Root Mean Squared Error (RMSE): This is similar to MAE but penalizes the larger errors more. A lower RMSE is better.
+
 ### 4.7 Plots
 The project produces an Actual vs Predicted plot, Residual plot and a Feature importance plot.
 
@@ -66,10 +70,10 @@ Permutation importance is used to estimate the decrease in performance when an i
 
 The baseline model is compared with Ridge Regression and Random Forest using 5-fold cross-validation and test-set evaluation. Lower MAE and RMSE values indicate better prediction performance.
 
-Model| Cross-Validation MAE| Test MAE| Test RMSE
-Dummy Regressor (Baseline)| 2.4278| 2.3946| 3.1726
-Ridge Regression| 2.0423| 2.1518| 2.8580
-Random Forest| 1.9916| 2.0193| 2.7630
+|Model| Cross-Validation MAE| Test MAE| Test RMSE
+|Dummy Regressor (Baseline)| 2.4278| 2.3946| 3.1726
+|Ridge Regression| 2.0423| 2.1518| 2.8580
+|Random Forest| 1.9916| 2.0193| 2.7630
 
 Source of results: "outputs/model_comparison.csv"
 
