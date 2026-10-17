@@ -1,0 +1,7 @@
+Student Performance Prediction
+Selected model: Random Forest
+Test MAE: 2.019
+Test RMSE: 2.763
+Baseline MAE: 2.395
+Improvement: 15.67%
+G1 and G2 excluded from model inputs.
